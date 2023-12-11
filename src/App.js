@@ -1,9 +1,8 @@
-function App() {
-  return (
-    <div>
-      <h1>React App</h1>
-    </div>
-  )
+import "./App.css"
+import Home from "./pages/Home"
+
+const App = () => {
+  return <Home />
 }
 
 export default App
